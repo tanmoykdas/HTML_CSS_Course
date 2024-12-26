@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h3 align="center">Course Registration Form</h3>
+    <hr>
+    <br>
+    <form>
+        <div>
+            <label for="first name">First Name:</label>
+            <input type="text" name="first name" id="first name">
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date of birth:</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender"> Male
+            <input type="radio" name="gender" id="gender"> Female
+            <input type="radio" name="gender" id="gender"> Others
+        </div>
+        <br>
+        <div>
+            <label for="Religion status">Religion:</label>
+            <input type="Radio" name="region" id="region"> Islam
+            <input type="radio" name="region" id="region"> Hinduism
+            <input type="radio" name="region" id="region"> Others
+        </div>
+        <br>
+        <div>
+            <label for="photo"> Choose your photo:</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="depertment">Depertment:</label>
+            <select name="depertment" id="depertment">
+                <option value="CSIT">CSIT</option>
+                <option value="CCE">CCE</option>
+                <option value="EEE">EEE</option>
+                <option value="PME">PME</option>
+                <option value="MAT">MAT</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="text">Comment something:</label>
+            <br>
+            <textarea name="comment" id="comment" cols="20" rows="4"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
