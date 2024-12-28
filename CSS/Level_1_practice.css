@@ -1,0 +1,9 @@
+#box {
+    height: 60px;
+    width: 500px;
+    background-color: red;
+}
+
+.cl {
+    color: green;
+}
