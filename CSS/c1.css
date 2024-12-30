@@ -1,0 +1,33 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+#p1 {
+    font-size: 20px;    
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: green;
+    background-color: yellow;
+    text-align: center;
+    font-weight: normal;
+}
+#h2 {
+    color: purple;
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+#h3 {
+    color: black;
+    background-color: wheat;
+    text-align: center;
+    font-weight: bolder;
+}
+h4 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: lighter;
+}
